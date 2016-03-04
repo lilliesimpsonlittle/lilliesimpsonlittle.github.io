@@ -129,6 +129,12 @@ p {
 	color: #636263
 }
 
+.name {
+	text-align: center;
+	font-size: 400px;
+	font-weight: bolder;
+}
+
 .logo {
 	text-align: center;
 	font-size: 100px;
