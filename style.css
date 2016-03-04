@@ -129,12 +129,15 @@ p {
 	color: #636263
 }
 
+<<<<<<< HEAD
 .name {
 	text-align: center;
 	font-size: 400px;
 	font-weight: bolder;
 }
 
+=======
+>>>>>>> da68c060681739b28c3027a2ce4d80fd0896b479
 .logo {
 	text-align: center;
 	font-size: 100px;
