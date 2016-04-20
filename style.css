@@ -66,6 +66,8 @@ section {
 	text-indent: 40px;
 
 }
+
+
 body {
 	background-image:url(texture.png);
 }
@@ -163,6 +165,32 @@ h3:hover {
 	border-width: 100%;
 }
 
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #333; margin-left: 20px;
+}
+
+.subheaders {
+  font-size: 40px;
+}
+
+.artical {
+  padding-left: 20px; text-indent: initial;
+}
+
+.paragraph {
+  padding-left: 20px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.video {
+  padding-left: 50px; padding-top: 30px; padding-bottom: 30px 
+}
+
 .image img {
 	height: 800px;
 	padding: 1px;
@@ -183,6 +211,7 @@ h3:hover {
 	font-size: 30px;
 	font-weight: bold;
 	font-style: underline;
+  padding-bottom: 100px; padding-top: 100px
 }
 
 div .content{
@@ -217,6 +246,7 @@ div .content{
 	left: 0px;
 	bottom: 6px;
 	z-index: 0;
+  padding-top: 150px;
 }
 
 .patch{
