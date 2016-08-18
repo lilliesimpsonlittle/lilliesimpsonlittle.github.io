@@ -72,11 +72,11 @@ body {
 	background-image:url(texture.png);
 }
 
-li {
+/*li {
 
 	display: inline;
 
-}
+}*/
 
 a {
 	letter-spacing: 7px;
@@ -97,12 +97,35 @@ a:hover{
 }
 /* classes are referenced in css with a full 
 stop instead of a hashtag */
-.menu {
-	padding: 1px;
-	background-color: black;
-	word-spacing: 10px;
+.menu li {
+  display: inline;
 
 }
+.menu {
+  padding: 1px;
+  background-color: black;
+  word-spacing: 15px;
+  font-family: 'Titillium Web', sans-serif;
+}
+.portfoliolist li {
+  list-style-type: disc;
+}
+.portfoliolist {
+  font-family: 'Titillium Web', sans-serif;
+}
+.menu3{
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.progimages li {
+  display: inline;
+}
+
+.progimages img {
+  height: 80px;  
+}
+
+
 
 .header {
 	font-family: 'Indie Flower', cursive;
@@ -208,16 +231,11 @@ h3:hover {
   margin-right: auto;
 }
 
-.progimages img {
-  height: 80px;
-  padding-left: 500px;
-  
+.blogimage img {
+  height: 450px;
+  padding:20px;
 }
 
-.progimages {
-  text-align: right;
-  position: static;
-} 
 
 .subtitle {
 	text-align: left;
@@ -233,6 +251,11 @@ h3:hover {
 	font-style: underline;
   padding-bottom: 100px; padding-top: 100px 
   text-align: center;
+  padding: 20px;
+}
+.aboutme {
+  font-family: 'Titillium Web', sans-serif;
+  padding:20px;
 }
 
 div .content{
@@ -277,13 +300,13 @@ div .content{
 }
 
 .info1{
-  font-family: 'Ubuntu Condensed', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   color: #333333;
   padding-left: 40px; font-stretch: italic; font-weight: 700;
 
 }
 .info2{
-  font-family: 'Ubuntu Condensed', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   color: #333333;
   padding-left: 180px; padding-bottom: 50px; padding-top: 30px;
   font-size: larger;
