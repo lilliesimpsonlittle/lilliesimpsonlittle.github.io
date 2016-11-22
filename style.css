@@ -17,7 +17,7 @@ time, mark, audio, video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
-    background: #dbdedd;
+    background: white;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -62,7 +62,7 @@ resets the page to have no default css */
 section {
 
 	font-family: 'Droid Sans', sans-serif;
-	background-color: ##ffffff;
+	background-color: #ffffff;
 	text-indent: 40px;
 
 }
@@ -103,7 +103,6 @@ stop instead of a hashtag */
 }
 .menu {
   padding: 1px;
-  background-color: black;
   word-spacing: 15px;
   font-family: 'Titillium Web', sans-serif;
 }
@@ -181,7 +180,7 @@ h3:hover {
 
 .logo h1 {
 	height: 200px;
-	color: white;
+	color: black;
 	text-align: center;
 	/*padding-top: 50px;
 	padding-bottom: 50px;*/
@@ -320,6 +319,6 @@ div .content{
         background-color: lightgreen;
     }
 }
-	
+
 
 /**END OF HOMEPAGE AND DEFAULT GENERAL PAGES**/
