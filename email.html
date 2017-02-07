@@ -7,6 +7,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Ubuntu+Condensed|Indie+Flower' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href=style.css>
+
 </head>
 
 <body>
@@ -18,21 +19,11 @@
 		</ul>
 	</nav>
 	</div>
-		<div class="header">
+	<div class="header">
 	</div>
 
-
-
-		<div class="portfoliolist">
-	<nav>
-		<ul>
-			<li><a href="year1.html">Music Composition Pieces</a>
-			<li><a href="year2.html">Binaural and Surround Sound in Gaming</a>
-			<li><a href="app.html">Pure Data iOS App</a>
-			<li><a href="wbl.html">Work in Middleware</a>
-			<li><a href="heavy.html">Surround Sound for VR Gaming</a>
-		</ul>
-	</nav>
+	<div class="logo">
+		<h1><strong>Email</strong></h1>
 	</div>
 
 	<head>
@@ -54,14 +45,116 @@
     </ul>
 </div>
 
+	<div class="contactform">
 
-	<div class="image2">
-	<img src="logo.png">
+	<form name="contactform" method="post" action="send_form_email.php">
+ 
+<table width="450px">
+ 
+<tr>
+ 
+ <td valign="top">
+ 
+  <label for="first_name">First Name *</label>
+ 
+ </td>
+ 
+ <td valign="top">
+ 
+  <input  type="text" name="first_name" maxlength="50" size="30">
+ 
+ </td>
+ 
+</tr>
+ 
+<tr>
+ 
+ <td valign="top"">
+ 
+  <label for="last_name">Last Name *</label>
+ 
+ </td>
+ 
+ <td valign="top">
+ 
+  <input  type="text" name="last_name" maxlength="50" size="30">
+ 
+ </td>
+ 
+</tr>
+ 
+<tr>
+ 
+ <td valign="top">
+ 
+  <label for="email">Email Address *</label>
+ 
+ </td>
+ 
+ <td valign="top">
+ 
+  <input  type="text" name="email" maxlength="80" size="30">
+ 
+ </td>
+ 
+</tr>
+ 
+<tr>
+ 
+ <td valign="top">
+ 
+  <label for="telephone">Telephone Number</label>
+ 
+ </td>
+ 
+ <td valign="top">
+ 
+  <input  type="text" name="telephone" maxlength="30" size="30">
+ 
+ </td>
+ 
+</tr>
+ 
+<tr>
+ 
+ <td valign="top">
+ 
+  <label for="comments">Comments *</label>
+ 
+ </td>
+ 
+ <td valign="top">
+ 
+  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+ 
+ </td>
+ 
+</tr>
+ 
+<tr>
+ 
+ <td colspan="2" style="text-align:center">
+ 
+  <input type="submit" value="Submit">
+ 
+ </td>
+ 
+</tr>
+ 
+</table>
+ 
+</form>
+
+</div>
+
+		<div class="image2">
+	<img src="Logo.png">
 	</div>
 
 		<div class="footer">
 	<article>Web Design by Lillie Simpson-Little</article>
 	</div>
+
 
 </body>
 </html>
