@@ -321,6 +321,11 @@ font-family: 'Titillium Web', sans-serif;
   padding-left: 180px;
 }
 
+.image3 img{
+  height: 500px;
+  padding-left: 30px;
+}
+
 
 
 @media screen and (max-width: 768px) 
